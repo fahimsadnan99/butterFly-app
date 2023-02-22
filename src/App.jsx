@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import { ScrollControls, Scroll, Environment ,Float, Sparkles,PositionalAudio} from "@react-three/drei";
 import { Butterfly } from "./models/Butterfly";
 import { EffectComposer, DepthOfField, Bloom, Vignette } from "@react-three/postprocessing";
-// import Sound1 from "./sounds/ambient-2.mp3"
-// import Sound2 from "./sounds/ambient.mp3"
-// import Sound3 from "./sounds/ambient-rain.mp3"
+
 
 
 const App = () => {
@@ -77,15 +75,6 @@ const App = () => {
 
 
 
-        {/* <group position={[0, 0, 0]}>
-          <PositionalAudio  autoplay loop url={Sound1} distance={1.2} />
-        </group>    
-        <group position={[0, -20, 0]}>
-          <PositionalAudio  autoplay loop url={Sound2} distance={3} />
-        </group>  
-        <group position={[0, -40, 0]}>
-          <PositionalAudio  autoplay loop url={Sound3} distance={1.2} />
-        </group>    */}
         </Scroll>
         <Scroll html style={{ width: "100%", height: "100%" }}>
           <div className="relative">
